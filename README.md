@@ -7,10 +7,10 @@ structure for keyboard use:
 This repeats the command x number of times.
 
 # All Shortcuts
-<kbd>TAB</kbd> - Next Measure
-<kbd>Shift</kbd> + <kbd>TAB</kbd> - Previous Measure
-<kbd>SPACE</kbd> - Start From Cursor/Stop Playback
-<kbd>Shift</kbd> + <kbd>SPACE</kbd> - Resume Playback
+<kbd>TAB</kbd> - Next Measure<br/>
+<kbd>Shift</kbd> + <kbd>TAB</kbd> - Previous Measure<br/>
+<kbd>SPACE</kbd> - Start From Cursor/Stop Playback<br/>
+<kbd>Shift</kbd> + <kbd>SPACE</kbd> - Resume Playback<br/>
 <kbd>ENTER</kbd> - Go x measures from beginning - default=1 (example: `10⏎` goes to measure 10)<br/>
 <kbd>HOME</kbd> - Go to Top of Movement<br/>
 <kbd>END</kbd> - Go to End of Movement<br/>
@@ -90,7 +90,7 @@ This repeats the command x number of times.
 <kbd>P</kbd> - Put (Paste but inserts measures)<br/>
 <kbd>Shift</kbd> + <kbd>P</kbd> - Edit Instruments / Movements / Score Properties<br/>
 <kbd>Q</kbd> - Set Duration To Quarter note<br/>
-<kbd>Shift</kbd> + <kbd>Q</kbd> - Toggle Courtesy Accidental
+<kbd>Shift</kbd> + <kbd>Q</kbd> - Toggle Courtesy Accidental<br/>
 <kbd>R</kbd> - Insert Rest<br/>
 <kbd>Shift</kbd> + <kbd>R</kbd> - Set swing ratio<br/>
 <kbd>S</kbd> - Set Duration To Eighth note (subdivision)<br/>
@@ -102,18 +102,18 @@ This repeats the command x number of times.
 <kbd>V</kbd> - Set Duration To 64th note (subdivide beat)<br/>
 <kbd>Shift</kbd> + <kbd>V</kbd> - Insert Vibrato<br/>
 <kbd>W</kbd> - Set Duration To Whole Note<br/>
-<kbd>Shift</kbd> + <kbd>W</kbd> - Da Signo (D.S)
+<kbd>Shift</kbd> + <kbd>W</kbd> - Da Signo (D.S)<br/>
 <kbd>X</kbd> - Set Duration To 16th note (subdivide beat)<br/>
-<kbd>Shift</kbd> + <kbd>X</kbd> - (D.C) al coda
+<kbd>Shift</kbd> + <kbd>X</kbd> - (D.C) al coda<br/>
 <kbd>Y</kbd> - Yank (Cut but removes measures)<br/>
-<kbd>Shift</kbd> + <kbd>Y</kbd> - Customize Instrument Synthesis Sounds
+<kbd>Shift</kbd> + <kbd>Y</kbd> - Customize Instrument Synthesis Sounds<br/>
 <kbd>Z</kbd> - Set Duration To 32th note (subdivide beat) <br/>
-<kbd>Shift</kbd> + <kbd>Z</kbd> - (D.C) al fine
+<kbd>Shift</kbd> + <kbd>Z</kbd> - (D.C) al fine<br/>
 
 <kbd>CTRL</kbd> + <kbd>/</kbd> - Find Music Notation (Rather Than Text)<br/>
 <kbd>CTRL</kbd> + <kbd>TAB</kbd> - Cycle Through Tabs<br/>
 <kbd>CTRL</kbd> + <kbd>CAPS LOCK</kbd> - Cycle Through Tabs Backwards<br/>
-<kbd>CTRL</kbd> + <kbd>SPACE</kbd> - Play From The Beginning
+<kbd>CTRL</kbd> + <kbd>SPACE</kbd> - Play From The Beginning<br/>
 <kbd>CTRL</kbd> + <kbd>A</kbd> - Select All<br/>
 <kbd>CTRL</kbd> + <kbd>B</kbd> - <br/>
 <kbd>CTRL</kbd> + <kbd>C</kbd> - Copy<br/>
