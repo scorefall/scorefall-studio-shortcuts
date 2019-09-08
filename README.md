@@ -2,7 +2,7 @@
 Keyboard shortcuts for ScoreFall Studio.  ScoreFall Studio uses a simple command
 structure for keyboard use:
 
-<kbd>Number</kbd>; <kbd>Command</kdb>
+<kbd>Number</kbd>; <kbd>Command</kbd>
 
 This repeats the command x number of times.
 
@@ -36,27 +36,27 @@ This repeats the command x number of times.
 <kbd>4</kbd>; <kbd>ENTER</kbd> OR <kbd>S</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
 <kbd>5</kbd>; <kbd>ENTER</kbd> OR <kbd>Q</kbd> - Set Duration To Quarter note<br/>
 <kbd>6</kbd>; <kbd>ENTER</kbd> OR <kbd>H</kbd> - Set Duration To Half note<br/>
-<kdb>7</kbd>; <kbd>ENTER</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
-<kdb>8</kbd>; <kbd>ENTER</kbd> OR <kbd>U</kbd> - Set Duration To Double Whole Note<br/>
-<kdb>9</kbd>; <kbd>ENTER</kbd> OR <kbd>L</kbd> - Set Duration To Longa<br/>
-<kdb>!</kbd> - Signo (Repeat Sign)<br/>
-<kdb>@</kbd> - Insert Harmonic<br/>
-<kdb>#</kbd> - Coda<br/>
-<kdb>$</kbd> - Toggle Fermata<br/>
-<kdb>%</kbd> - Repeat Previous Measure<br/>
-<kdb>^</kbd> - Toggle Marcato<br/>
-<kdb>&</kbd> - Toggle Slur<br/>
-<kdb>*</kbd> - Toggle Stacato<br/>
-<kdb>(</kbd> - Pitch Bend Slide Into<br/>
-<kdb>)</kbd> - Pitch Bend Slide Out Of<br/>
-<kdb>-</kbd> - Toggle Portamento / Glissando<br/>
-<kdb>_</kbd> - Toggle Tenuto<br/>
-<kdb>=</kbd> - Insert Tremelo (example: `2=` tremelo marking x2)<br/>
-<kdb>+</kbd> - Toggle Mute (Possible:Closed,Open,None)<br/>
-<kdb>\`</kbd> - Insert Breath Mark, 2 for caesura, 3 for grand pause<br/>
-<kdb>~</kbd> - Insert Trill<br/>
-<kdb>'</kbd> - Staccatissimo<br/>
-<kdb>"</kbd> - Insert Clef Change<br/>
+<kbd>7</kbd>; <kbd>ENTER</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
+<kbd>8</kbd>; <kbd>ENTER</kbd> OR <kbd>U</kbd> - Set Duration To Double Whole Note<br/>
+<kbd>9</kbd>; <kbd>ENTER</kbd> OR <kbd>L</kbd> - Set Duration To Longa<br/>
+<kbd>!</kbd> - Signo (Repeat Sign)<br/>
+<kbd>@</kbd> - Insert Harmonic<br/>
+<kbd>#</kbd> - Coda<br/>
+<kbd>$</kbd> - Toggle Fermata<br/>
+<kbd>%</kbd> - Repeat Previous Measure<br/>
+<kbd>^</kbd> - Toggle Marcato<br/>
+<kbd>&</kbd> - Toggle Slur<br/>
+<kbd>*</kbd> - Toggle Stacato<br/>
+<kbd>(</kbd> - Pitch Bend Slide Into<br/>
+<kbd>)</kbd> - Pitch Bend Slide Out Of<br/>
+<kbd>-</kbd> - Toggle Portamento / Glissando<br/>
+<kbd>_</kbd> - Toggle Tenuto<br/>
+<kbd>=</kbd> - Insert Tremelo (example: `2=` tremelo marking x2)<br/>
+<kbd>+</kbd> - Toggle Mute (Possible:Closed,Open,None)<br/>
+<kbd>\`</kbd> - Insert Breath Mark, 2 for caesura, 3 for grand pause<br/>
+<kbd>~</kbd> - Insert Trill<br/>
+<kbd>'</kbd> - Staccatissimo<br/>
+<kbd>"</kbd> - Insert Clef Change<br/>
 <kbd>A</kbd> - Insert A Below (within key) - Optional Number For Duration<br/>
 <kbd>Shift</kbd> + <kbd>A</kbd> - Insert A Above (within key)- Optional Number For Duration<br/>
 <kbd>B</kbd> - Insert B Below (within key)- Optional Number For Duration<br/>
