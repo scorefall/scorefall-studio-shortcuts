@@ -6,16 +6,27 @@ structure for keyboard use:
 
 This repeats the command x number of times.
 
+# Control Mode
+This is the default mode.  Enter into this mode with <kbd>CTRL</kbd>.
+
+<kbd>L</kbd>: Change Note Length<br/>
+
+## Note Length
+<kbd>1</kbd> OR <kbd>F</kbd> - Set Duration To 64th note (subdivide beat)<br/>
+<kbd>2</kbd> OR <kbd>R</kbd> - Set Duration To 32th note (subdivide beat)<br/>
+<kbd>3</kbd> OR <kbd>S</kbd> - Set Duration To 16th note (subdivide beat)<br/>
+<kbd>4</kbd> OR <kbd>E</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
+<kbd>5</kbd> OR <kbd>Q</kbd> - Set Duration To Quarter note<br/>
+<kbd>6</kbd> OR <kbd>A</kbd> - Set Duration To Half note<br/>
+<kbd>7</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
+<kbd>8</kbd> OR <kbd>D</kbd> - Set Duration To Double Whole Note<br/>
+<kbd>9</kbd> OR <kbd>G</kbd> - Set Duration To Longa<br/>
+<kbd>0</kbd> OR <kbd>T</kbd> - Tuplet (example: `3t` triplet on current duration, `t-` remove note from tuplet, `t+` or `tt` add note to tuplet)<br/>
+
 # All Shortcuts
-<kbd>TAB</kbd> - Next Measure<br/>
-<kbd>Shift</kbd> + <kbd>TAB</kbd> - Previous Measure<br/>
 <kbd>SPACE</kbd> - Start From Cursor/Stop Playback<br/>
 <kbd>Shift</kbd> + <kbd>SPACE</kbd> - Resume Playback<br/>
 <kbd>ENTER</kbd> - Go x measures from beginning - default=1 (example: `10⏎` goes to measure 10)<br/>
-<kbd>HOME</kbd> - Go to Top of Movement<br/>
-<kbd>END</kbd> - Go to End of Movement<br/>
-<kbd>PAGE UP</kbd> - Previous Rehearsal Marking<br/>
-<kbd>PAGE DOWN</kbd> - Next Rehearsal Marking<br/>
 <kbd>,</kbd> - Toggle double augmentation on duration<br/>
 <kbd>.</kbd> - Toggle augmentation on duration<br/>
 <kbd>/</kbd> - Toggle Find Mode or Insert time signature (`4/4` `ᴇɴᴛᴇʀ`=Common Time, `/`=Toggle Find Mode)<br/>
@@ -30,15 +41,6 @@ This repeats the command x number of times.
 <kbd><</kbd> - insert cresendo (example: `4<` cresc. for 4 beats)<br/>
 <kbd>></kbd> - insert decresendo or accent (example: `4>` decresc. for 4 beats, `>` for accent)<br/>
 <kbd>:</kbd> - Change Instrument / Use Pedal / Use Mute<br/>
-<kbd>1</kbd>; <kbd>ENTER</kbd> OR <kbd>V</kbd> - Set Duration To 64th note (subdivide beat)<br/>
-<kbd>2</kbd>; <kbd>ENTER</kbd> OR <kbd>Z</kbd> - Set Duration To 32th note (subdivide beat)<br/>
-<kbd>3</kbd>; <kbd>ENTER</kbd> OR <kbd>X</kbd> - Set Duration To 16th note (subdivide beat)<br/>
-<kbd>4</kbd>; <kbd>ENTER</kbd> OR <kbd>S</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
-<kbd>5</kbd>; <kbd>ENTER</kbd> OR <kbd>Q</kbd> - Set Duration To Quarter note<br/>
-<kbd>6</kbd>; <kbd>ENTER</kbd> OR <kbd>H</kbd> - Set Duration To Half note<br/>
-<kbd>7</kbd>; <kbd>ENTER</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
-<kbd>8</kbd>; <kbd>ENTER</kbd> OR <kbd>U</kbd> - Set Duration To Double Whole Note<br/>
-<kbd>9</kbd>; <kbd>ENTER</kbd> OR <kbd>L</kbd> - Set Duration To Longa<br/>
 <kbd>!</kbd> - Signo (Repeat Sign)<br/>
 <kbd>@</kbd> - Insert Harmonic<br/>
 <kbd>#</kbd> - Coda<br/>
@@ -73,8 +75,6 @@ This repeats the command x number of times.
 <kbd>Shift</kbd> + <kbd>G</kbd> - Insert G Above (within key)- Optional Number For Duration<br/>
 <kbd>H</kbd> - Set Duration To Half note<br/>
 <kbd>Shift</kbd> + <kbd>H</kbd> - Show Help For Different Context (`3H` - help for context 3, `H` next context)<br/>
-<kbd>I</kbd> - Insert Interval Below (example: `5i` inserts note 5th below)<br/>
-<kbd>Shift</kbd> + <kbd>I</kbd> - Insert Interval Above (example: `5I` inserts note 5th below)<br/>
 <kbd>J</kbd> - Down 1 Step (within key)<br/>
 <kbd>Shift</kbd> + <kbd>J</kbd> - Down Half Step (Semi-tone)<br/>
 <kbd>K</kbd> - Up 1 Step (within key)<br/>
@@ -95,8 +95,6 @@ This repeats the command x number of times.
 <kbd>Shift</kbd> + <kbd>R</kbd> - Set swing ratio<br/>
 <kbd>S</kbd> - Set Duration To Eighth note (subdivision)<br/>
 <kbd>Shift</kbd> + <kbd>S</kbd> - Set Dynamic (`Smf`=mf, `Sszf`=sfz, `S3f`=fff)<br/>
-<kbd>T</kbd> - Tuplet (example: `3t` triplet on current duration, `t-` remove note from tuplet, `t+` or `tt` add note to tuplet)<br/>
-<kbd>Shift</kbd> + <kbd>T</kbd> - Add tempo marking in BPM (beats per minute, example: `120T`) or text instruction `Tconfidently!` `ᴇɴᴛᴇʀ`<br/>
 <kbd>U</kbd> - arpeggio (strum) pitch up, strum guitar down<br/>
 <kbd>Shift</kbd> + <kbd>U</kbd> - Strum <br/>
 <kbd>V</kbd> - Set Duration To 64th note (subdivide beat)<br/>
@@ -106,7 +104,6 @@ This repeats the command x number of times.
 <kbd>X</kbd> - Set Duration To 16th note (subdivide beat)<br/>
 <kbd>Shift</kbd> + <kbd>X</kbd> - (D.C) al coda<br/>
 <kbd>Y</kbd> - Yank (Cut but removes measures)<br/>
-<kbd>Shift</kbd> + <kbd>Y</kbd> - Customize Instrument Synthesis Sounds<br/>
 <kbd>Z</kbd> - Set Duration To 32th note (subdivide beat) <br/>
 <kbd>Shift</kbd> + <kbd>Z</kbd> - (D.C) al fine<br/>
 
@@ -114,13 +111,10 @@ This repeats the command x number of times.
 <kbd>CTRL</kbd> + <kbd>TAB</kbd> - Cycle Through Tabs<br/>
 <kbd>CTRL</kbd> + <kbd>CAPS LOCK</kbd> - Cycle Through Tabs Backwards<br/>
 <kbd>CTRL</kbd> + <kbd>SPACE</kbd> - Play From The Beginning<br/>
-<kbd>CTRL</kbd> + <kbd>A</kbd> - Select All<br/>
-<kbd>CTRL</kbd> + <kbd>B</kbd> - <br/>
-<kbd>CTRL</kbd> + <kbd>C</kbd> - Copy<br/>
-<kbd>CTRL</kbd> + <kbd>D</kbd> - Delete Measure<br/>
+
 <kbd>CTRL</kbd> + <kbd>E</kbd> - Exchange With Clipboard<br/>
 <kbd>CTRL</kbd> + <kbd>F</kbd> - Find Text<br/>
-<kbd>CTRL</kbd> + <kbd>G</kbd> - Go To Measure # Alternative<br/>
+
 <kbd>CTRL</kbd> + <kbd>H</kbd> - Toggle Help Menus<br/>
 <kbd>CTRL</kbd> + <kbd>I</kbd> - <br/>
 <kbd>CTRL</kbd> + <kbd>J</kbd> - Down Quarter Step<br/>
@@ -134,12 +128,148 @@ This repeats the command x number of times.
 <kbd>CTRL</kbd> + <kbd>R</kbd> - Redo<br/>
 <kbd>CTRL</kbd> + <kbd>S</kbd> - Share…<br/>
 <kbd>CTRL</kbd> + <kbd>T</kbd> - Open Just Closed Tab<br/>
-<kbd>CTRL</kbd> + <kbd>U</kbd> - Arpeggio (strum) pitch down, strum guitar up<br/>
-<kbd>CTRL</kbd> + <kbd>V</kbd> - Cut<br/>
-<kbd>CTRL</kbd> + <kbd>W</kbd> - Close Tab (Close Score)<br/>
-<kbd>CTRL</kbd> + <kbd>X</kbd> - Cut<br/>
-<kbd>CTRL</kbd> + <kbd>Y</kbd> - Redo Alternative<br/>
-<kbd>CTRL</kbd> + <kbd>Z</kbd> - Undo<br/>
+
+
+## Redesign of Shortcuts
+<kbd>Tab</kbd> - Next Measure<br/>
+<kbd>Shift</kbd><kbd>Tab</kbd> - Previous Measure<br/>
+<kbd>Alt</kbd><kbd>Tab</kbd> - UNUSED<br/>
+
+<kbd>Enter</kbd> - Next channel (move cursor down 1 staff)
+<kbd>Shift</kbd><kbd>Enter</kbd> - Select (down) next channel<br/>
+<kbd>Alt</kbd><kbd>Enter</kbd> - Swap channel with next<br/>
+
+<kbd>CapsLock</kbd> - Previous channel (move cursor down 1 staff)
+<kbd>Shift</kbd><kbd>CapsLock</kbd> - Select (up) previous channel<br/>
+<kbd>Alt</kbd><kbd>CapsLock</kbd> - Swap channel with previous<br/>
+
+===
+
+<kbd>Home</kbd> - Go to Top of Movement<br/>
+<kbd>Shift</kbd><kbd>Home</kbd> - Select to Top of Movement<br/>
+<kbd>Alt</kbd><kbd>Home</kbd> - Move measure/selection to top of movement<br/>
+
+<kbd>End</kbd> - Go to End of Movement<br/>
+<kbd>Shift</kbd><kbd>End</kbd> - Select to End of Movement<br/>
+<kbd>Alt</kbd><kbd>End</kbd> - Move measure/selection to end of Movement<br/>
+
+<kbd>PageUp</kbd> - Previous Rehearsal Marking<br/>
+<kbd>Shift</kbd><kbd>PageUp</kbd> - Select to Previous Rehearsal Marking<br/>
+<kbd>Alt</kbd><kbd>PageUp</kbd> - Move section to previous Rehearsal Marking<br/>
+
+<kbd>PageDown</kbd> - Next Rehearsal Marking<br/>
+<kbd>Shift</kbd><kbd>PageDown</kbd> - Select to Next Rehearsal Marking<br/>
+<kbd>Alt</kbd><kbd>PageDown</kbd> - Move section to Next Rehearsal Marking<br/>
+
+===
+
+<kbd>Ctrl</kbd><kbd>Shift</kbd> - ALIAS for <kbd>Alt</kbd></br/>
+
+<kbd>Left<kbd/> - ALIAS for H<br/>
+<kbd>Right<kbd/> - ALIAS for L<br/>
+<kbd>Up<kbd/> - ALIAS for K<br/>
+<kbd>Down<kbd/> - ALIAS for J<br/>
+
+===
+
+<kbd>1</kbd> OR <kbd>F</kbd> - Set Duration To 64th note (subdivide beat)<br/>
+<kbd>2</kbd> OR <kbd>R</kbd> - Set Duration To 32th note (subdivide beat)<br/>
+<kbd>3</kbd> OR <kbd>S</kbd> - Set Duration To 16th note (subdivide beat)<br/>
+<kbd>4</kbd> OR <kbd>E</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
+<kbd>5</kbd> OR <kbd>Q</kbd> - Set Duration To Quarter note<br/>
+<kbd>6</kbd> OR <kbd>A</kbd> - Set Duration To Half note<br/>
+<kbd>7</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
+<kbd>8</kbd> OR <kbd>D</kbd> - Set Duration To Double Whole Note<br/>
+<kbd>0</kbd> OR <kbd>T</kbd> - Tuplet (example: `3t` triplet on current duration, `t-`<br/>
+
+===
+
+<kbd>A</kbd> - Change Note to A Below, Change Rest to Nearest A<br/>
+<kbd>SHIFT</kbd><kbd>A</kbd> - Change Note to A Above, Change Rest to Furthest A<br/>
+<kbd>B</kbd> - Change Note to B Below, Change Rest to Nearest B<br/>
+<kbd>SHIFT</kbd><kbd>B</kbd> - Change Note to B Above, Change Rest to Furthest B<br/>
+<kbd>C</kbd> - Change Note to C Below, Change Rest to Nearest C<br/>
+<kbd>SHIFT</kbd><kbd>C</kbd> - Change Note to C Above, Change Rest to Furthest C<br/>
+<kbd>D</kbd> - Change Note to D Below, Change Rest to Nearest D<br/>
+<kbd>SHIFT</kbd><kbd>D</kbd> - Change Note to D Above, Change Rest to Furthest D<br/>
+<kbd>E</kbd> - Change Note to E Below, Change Rest to Nearest E<br/>
+<kbd>SHIFT</kbd><kbd>E</kbd> - Change Note to E Above, Change Rest to Furthest E<br/>
+<kbd>F</kbd> - Change Note to F Below, Change Rest to Nearest F<br/>
+<kbd>SHIFT</kbd><kbd>F</kbd> - Change Note to F Above, Change Rest to Furthest F<br/>
+<kbd>G</kbd> - Change Note to G Below, Change Rest to Nearest G<br/>
+<kbd>SHIFT</kbd><kbd>G</kbd> - Change Note to G Above, Change Rest to Furthest G<br/>
+<kbd>H</kbd> - Cursor Left<br/>
+<kbd>Shift</kbd><kbd>H</kbd> - Select Left<br/>
+<kbd>Alt</kbd><kbd>H</kbd> - Swap Note/Rest Left<br/>
+<kbd>I</kbd> - Insert Interval Below (example: `5i` inserts note 5th below)<br/>
+<kbd>Shift</kbd> + <kbd>I</kbd> - Insert Interval Above (example: `5I` inserts note 5th below)<br/>
+<kbd>Alt</kbd><kbd>I</kbd> - ???<br/>
+<kbd>J</kbd> - Down 1 Step (within key)<br/>
+<kbd>SHIFT</kbd><kbd>J</kbd> - Down 1 half step<br/>
+<kbd>Alt</kbd><kbd>J</kbd> - Down 1 quarter step<br/>
+<kbd>K</kbd> - Up 1 Step (within key)<br/>
+<kbd>SHIFT</kbd><kbd>K</kbd> - Up 1 half step<br/>
+<kbd>Alt</kbd><kbd>K</kbd> - Down 1 quarter step<br/>
+<kbd>L</kbd> - Cursor Right<br/>
+<kbd>SHIFT</kbd><kbd>L</kbd> - Select Right<br/>
+<kbd>Alt</kbd><kbd>H</kbd> - Swap Note/Rest Right<br/>
+<kbd>M</kbd> - <kbd>CTRL</kbd><kbd>G</kbd> Alias<br/>
+<kbd>Shift</kbd><kbd>M</kbd> - ??? <br/>
+<kbd>N</kbd> - <kbd>TAB</kbd> Alias<br/>
+<kbd>SHIFT</kbd><kbd>N</kbd> - <kbd>SHIFT</kbd><kbd>TAB</kbd> Alias<br/>
+<kbd>O</kbd> - Move octave down<br/>
+<kbd>Shift</kbd><kbd>O</kbd> - Move octave up<br/>
+<kbd>P</kbd> - Arpeggiate Up (Strum Down) <br/>
+<kbd>Shift</kbd><kbd>P</kbd> - Arpeggiate Down (Strum Up) <br/>
+<kbd>Q</kbd> - <kbd>5</kbd> Alias (1/4)<br/>
+<kbd>R</kbd> - Change Note to Rest<br/>
+<kbd>S</kbd> - <kbd>3</kbd> Alias (1/16)<br/>
+<kbd>Shift</kbd><kbd>S</kbd> Customize Instrument Synthesis Sounds<br/>
+<kbd>T</kbd> - <kbd>4</kbd> Alias (1/8)<br/>
+<kbd>Shift</kbd><kbd>T</kbd> Set Tempo (BPM & optional description)<br/>
+<kbd>Alt</kbd><kbd>T</kbd> Tuplet<br/>
+<kbd>U</kbd> - <kbd>2</kbd> Alias (1/2)<br/>
+<kbd>V</kbd> - Toggle Vibrato<br/>
+<kbd>Shift</kbd><kbd>V</kbd> ???<br/>
+<kbd>Alt</kbd><kbd>V</kbd> Swap selection with cut location or clipboard<br/>
+<kbd>W</kbd> - <kbd>7</kbd> Alias (1/1)<br/>
+<kbd>X</kbd> - Lenghten Note (*2)<br/>
+<kbd>Shift</kbd><kbd>X</kbd> - Lenghten Note (add ., or lenghten and remove .)<br/>
+<kbd>Alt</kbd><kbd>X</kbd> - Cut markings<br/>
+<kbd>Y</kbd> - <kbd>2</kbd> Alias (1/32)<br/>
+<kbd>Z</kbd> - Shorten Note (/2)<br/>
+<kbd>Shift</kbd><kbd>Z</kbd> - Shorten Note (remove ., or shorten and add .)<br/>
+<kbd>Alt</kbd><kbd>Z</kbd> - Redo<br/>
+
+===
+
+<kbd>Ctrl</kbd><kbd>A</kbd> - Select All<br/>
+<kbd>Ctrl</kbd><kbd>C</kbd> - Copy<br/>
+<kbd>Ctrl</kbd><kbd>D</kbd> - Delete Measure<br/>
+
+<kbd>Ctrl</kbd><kbd>G</kbd> - Jump to measure #, or rehearsal marking; first enter number or letter combination, then press enter to exit<br/>
+
+<kbd>Ctrl</kbd><kbd>V</kbd> - Paste<br/>
+<kbd>Ctrl</kbd><kbd>W</kbd> - Close Tab (Close Score)<br/>
+<kbd>Ctrl</kbd><kbd>X</kbd> - Cut measures<br/>
+<kbd>Ctrl</kbd><kbd>Y</kbd> - <kbd>Alt</kbd><kbd>Z</kbd> Alias (Redo)<br/>
+<kbd>Ctrl</kbd><kbd>Z</kbd> - Undo<br/>
+
+### Command Mode
+- 
+```
+12 # Goto measure 12
+rD # Goto rehearsal marking D
+r4 # Goto rehearsal marking 4
+```
+
+- Transpose octaves.
+```
+o # Down 1 octave
+2O # Up 2 octaves
+```
+
+===
 
 ## Tuning Modes
 - Insert Relative Tuning (choose a note in the current tuning, followed by new tuning)
