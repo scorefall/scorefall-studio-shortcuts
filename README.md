@@ -143,7 +143,7 @@ This is the default mode.  Enter into this mode with <kbd>CTRL</kbd>.
 <kbd>Shift</kbd><kbd>CapsLock</kbd> - Select (up) previous channel<br/>
 <kbd>Alt</kbd><kbd>CapsLock</kbd> - Swap channel with previous<br/>
 
-===
+------
 
 <kbd>Home</kbd> - Go to Top of Movement<br/>
 <kbd>Shift</kbd><kbd>Home</kbd> - Select to Top of Movement<br/>
@@ -161,28 +161,28 @@ This is the default mode.  Enter into this mode with <kbd>CTRL</kbd>.
 <kbd>Shift</kbd><kbd>PageDown</kbd> - Select to Next Rehearsal Marking<br/>
 <kbd>Alt</kbd><kbd>PageDown</kbd> - Move section to Next Rehearsal Marking<br/>
 
-===
+------
 
 <kbd>Ctrl</kbd><kbd>Shift</kbd> - ALIAS for <kbd>Alt</kbd></br/>
 
-<kbd>Left<kbd/> - ALIAS for H<br/>
-<kbd>Right<kbd/> - ALIAS for L<br/>
-<kbd>Up<kbd/> - ALIAS for K<br/>
-<kbd>Down<kbd/> - ALIAS for J<br/>
+<kbd>Left</kbd> - ALIAS for H<br/>
+<kbd>Right</kbd> - ALIAS for L<br/>
+<kbd>Up</kbd> - ALIAS for K<br/>
+<kbd>Down</kbd> - ALIAS for J<br/>
 
-===
+------
 
-<kbd>1</kbd> OR <kbd>F</kbd> - Set Duration To 64th note (subdivide beat)<br/>
-<kbd>2</kbd> OR <kbd>R</kbd> - Set Duration To 32th note (subdivide beat)<br/>
-<kbd>3</kbd> OR <kbd>S</kbd> - Set Duration To 16th note (subdivide beat)<br/>
-<kbd>4</kbd> OR <kbd>E</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
-<kbd>5</kbd> OR <kbd>Q</kbd> - Set Duration To Quarter note<br/>
-<kbd>6</kbd> OR <kbd>A</kbd> - Set Duration To Half note<br/>
-<kbd>7</kbd> OR <kbd>W</kbd> - Set Duration To Whole Note<br/>
-<kbd>8</kbd> OR <kbd>D</kbd> - Set Duration To Double Whole Note<br/>
-<kbd>0</kbd> OR <kbd>T</kbd> - Tuplet (example: `3t` triplet on current duration, `t-`<br/>
+<kbd>1</kbd> - Set Duration To 64th note (subdivide beat)<br/>
+<kbd>2</kbd> - Set Duration To 32th note (subdivide beat)<br/>
+<kbd>3</kbd> - Set Duration To 16th note (subdivide beat)<br/>
+<kbd>4</kbd> - Set Duration To Eighth note (subdivide beat)<br/>
+<kbd>5</kbd> - Set Duration To Quarter note<br/>
+<kbd>6</kbd> - Set Duration To Half note<br/>
+<kbd>7</kbd> - Set Duration To Whole Note<br/>
+<kbd>8</kbd> - Set Duration To Double Whole Note<br/>
+<kbd>0</kbd> - Tuplet (example: `3t` triplet on current duration, `t-`<br/>
 
-===
+------
 
 <kbd>A</kbd> - Change Note to A Below, Change Rest to Nearest A<br/>
 <kbd>SHIFT</kbd><kbd>A</kbd> - Change Note to A Above, Change Rest to Furthest A<br/>
@@ -241,7 +241,7 @@ This is the default mode.  Enter into this mode with <kbd>CTRL</kbd>.
 <kbd>Shift</kbd><kbd>Z</kbd> - Shorten Note (remove ., or shorten and add .)<br/>
 <kbd>Alt</kbd><kbd>Z</kbd> - Redo<br/>
 
-===
+------
 
 <kbd>Ctrl</kbd><kbd>A</kbd> - Select All<br/>
 <kbd>Ctrl</kbd><kbd>C</kbd> - Copy<br/>
@@ -269,7 +269,7 @@ o # Down 1 octave
 2O # Up 2 octaves
 ```
 
-===
+------
 
 ## Tuning Modes
 - Insert Relative Tuning (choose a note in the current tuning, followed by new tuning)
