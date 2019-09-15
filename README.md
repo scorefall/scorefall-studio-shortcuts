@@ -228,7 +228,7 @@ This is the default mode.  Enter into this mode with <kbd>CTRL</kbd>.
 <kbd>T</kbd> - <kbd>4</kbd> Alias (1/8)<br/>
 <kbd>Shift</kbd><kbd>T</kbd> Set Tempo (BPM & optional description)<br/>
 <kbd>Alt</kbd><kbd>T</kbd> Tuplet<br/>
-<kbd>U</kbd> - <kbd>2</kbd> Alias (1/2)<br/>
+<kbd>U</kbd> - <kbd>6</kbd> Alias (1/2)<br/>
 <kbd>V</kbd> - Toggle Vibrato<br/>
 <kbd>Shift</kbd><kbd>V</kbd> ???<br/>
 <kbd>Alt</kbd><kbd>V</kbd> Swap selection with cut location or clipboard<br/>
