@@ -1,4 +1,185 @@
-# Scorefall Studio - Keyboard Shortcuts
+# ScoreFall Studio - Keyboard Shortcuts
+ScoreFall Studio has modal keyboard shortcuts that match up with a GUI which can
+also be used as help for learning the shortcuts.
+
+**Modes:**
+
+- Normal Mode (For selecting parts of the score, and operating on it)
+- Edit Mode (For inserting notes by name or interval)
+- Articulation Mode (For changing articulation at cursor/selection)
+- Clef Mode (For changing clef at cursor/selection)
+
+## Normal Mode
+This mode is the starting mode, if you're in another mode you can enter with
+<kbd>Escape</kbd>.
+
+### Commands
+Commands are formed by typing a number, then a key to repeat the operation that
+many times.
+
+- Step (within key) ±
+ - Step Down (Within Key)
+ - Step Up (Within Key)
+- Octave ±
+ - Octave Down
+ - Octave Up
+- Change Unplayable Octaves…
+- Invert…
+- Reverse…
+ - Timewise Reverse (Pitches & Rhythm)
+ - Reverse Pitches
+ - Reverse Rhythm
+
+### Mappings (Aliases)
+This is to make it easier to use for non-power-users.
+
+<kbd>Left</kbd> - ALIAS for <kbd>H</kbd><br/>
+<kbd>Down</kbd> - ALIAS for <kbd>J</kbd><br/>
+<kbd>Up</kbd> - ALIAS for <kbd>K</kbd><br/>
+<kbd>Right</kbd> - ALIAS for <kbd>L</kbd><br/>
+
+### Letter Keys
+<kbd>Q</kbd><br/>
+<kbd>W</kbd><br/>
+<kbd>E</kbd>Edit Mode (For inserting notes)<br/>
+<kbd>R</kbd>Timewise Reverse (Pitches & Rhythm)<br/>
+<kbd>Shift</kbd><kbd>R</kbd>Reverse Pitches<br/>
+<kbd>Alt</kbd><kbd>R</kbd>Reverse Rhythm<br/>
+<kbd>T</kbd><br/>
+<kbd>Y</kbd><br/>
+<kbd>U</kbd><br/>
+<kbd>I</kbd>Step Down (Within Key)<br/>
+<kbd>Shift</kbd><kbd>I</kbd>Step Up (Within Key)<br/>
+<kbd>Alt</kbd><kbd>I</kbd>Invert…</br>
+<kbd>O</kbd>Octave Down<br/>
+<kbd>Shift</kbd><kbd>O</kbd>Octave Up<br/>
+<kbd>Alt</kbd><kbd>O</kbd>Change Unplayable Octaves…<br/>
+<kbd>P</kbd><br/>
+
+<kbd>A</kbd>Articulation Mode (For changing articulation)<br/>
+<kbd>S</kbd><br/>
+<kbd>D</kbd><br/>
+<kbd>F</kbd><br/>
+<kbd>G</kbd><br/>
+<kbd>H</kbd> Cursor Left<br/>
+<kbd>Shift</kbd><kbd>H</kbd> Select Left<br/>
+<kbd>Alt</kbd><kbd>H</kbd> Swap Note/Rest Left<br/>
+<kbd>J</kbd> Cursor Staff Down<br/>
+<kbd>Shift</kbd><kbd>J</kbd> Select Staff Down<br/>
+<kbd>Alt</kbd><kbd>J</kbd> Swap Staff Down<br/>
+<kbd>K</kbd> Cursor Staff Up<br/>
+<kbd>Shift</kbd><kbd>K</kbd> Select Staff Up<br/>
+<kbd>Alt</kbd><kbd>K</kbd> Swap Staff Up<br/>
+<kbd>L</kbd> Cursor Right<br/>
+<kbd>Shift</kbd><kbd>L</kbd> Select Right<br/>
+<kbd>Alt</kbd><kbd>L</kbd> Swap Note/Rest Right<br/>
+
+<kbd>Z</kbd><br/>
+<kbd>X</kbd><br/>
+<kbd>C</kbd><br/>
+<kbd>V</kbd><br/>
+<kbd>B</kbd><br/>
+<kbd>N</kbd><br/>
+<kbd>M</kbd><br/>
+
+## Edit Mode
+### Mappings (Aliases)
+This is to make it easier to use for non-power-users.
+
+<kbd>9</kbd> - ALIAS for Duration Mode: <kbd>L</kbd><br/>
+<kbd>8</kbd> - ALIAS for Duration Mode: <kbd>B</kbd><br/>
+<kbd>7</kbd> - ALIAS for Duration Mode: <kbd>W</kbd><br/>
+<kbd>6</kbd> - ALIAS for Duration Mode: <kbd>H</kbd><br/>
+<kbd>5</kbd> - ALIAS for Duration Mode: <kbd>Q</kbd><br/>
+<kbd>4</kbd> - ALIAS for Duration Mode: <kbd>E</kbd><br/>
+<kbd>3</kbd> - ALIAS for Duration Mode: <kbd>S</kbd><br/>
+<kbd>2</kbd> - ALIAS for Duration Mode: <kbd>T</kbd><br/>
+<kbd>1</kbd> - ALIAS for Duration Mode: <kbd>X</kbd><br/>
+<kbd>0</kbd> - ALIAS for Duration Mode: <kbd>O</kbd><br/>
+
+### Commands
+- Insert Note
+ - Same pitch as previous
+ - Insert A
+ - Insert B
+ - Insert C
+ - Insert D
+ - Insert E
+ - Insert F
+- Insert Interval…
+ - Insert Interval Down… (Takes a number)
+ - Insert Interval Up… (Takes a number)
+ - Insert Major Interval Up… (Takes a number)
+ - Insert Major Interval Down… (Takes a number)
+ - Insert Minor Interval Up… (Takes a number)
+ - Insert Minor Interval Down… (Takes a number)
+
+### Letter Keys
+<kbd>Q</kbd><br/>
+<kbd>W</kbd><br/>
+<kbd>E</kbd>Insert E<br/>
+<kbd>R</kbd>Same pitch as previous<br/>
+<kbd>T</kbd><br/>
+<kbd>Y</kbd><br/>
+<kbd>U</kbd><br/>
+<kbd>I</kbd>Insert Interval Down… (Takes a number)<br/>
+<kbd>Shift</kbd><kbd>I</kbd>Insert Interval Up… (Takes a number)<br/>
+<kbd>O</kbd><br/>
+<kbd>P</kbd><br/>
+
+<kbd>A</kbd>Insert A<br/>
+<kbd>S</kbd><br/>
+<kbd>D</kbd>Insert D<br/>
+<kbd>F</kbd>Insert F<br/>
+<kbd>G</kbd>Insert G<br/>
+<kbd>H</kbd> Cursor Left<br/>
+<kbd>Shift</kbd><kbd>H</kbd> Select Left<br/>
+<kbd>Alt</kbd><kbd>H</kbd> Swap Note/Rest Left<br/>
+<kbd>J</kbd> Down 1 Step (within key)<br/>
+<kbd>Shift</kbd><kbd>J</kbd> Down Half Step (Semi-tone)<br/>
+<kbd>Alt</kbd><kbd>J</kbd> Down 1 quarter step<br/>
+<kbd>K</kbd> Up 1 Step (within key)<br/>
+<kbd>Shift</kbd><kbd>K</kbd> Up Half Step (Semi-tone)<br/>
+<kbd>Alt</kbd><kbd>K</kbd> Up 1 quarter step<br/>
+<kbd>L</kbd> Cursor Right<br/>
+<kbd>Shift</kbd><kbd>L</kbd> Select Right<br/>
+<kbd>Alt</kbd><kbd>L</kbd> Swap Note/Rest Right<br/>
+
+<kbd>Z</kbd><br/>
+<kbd>X</kbd><br/>
+<kbd>C</kbd>Insert C<br/>
+<kbd>V</kbd><br/>
+<kbd>B</kbd>Insert B<br/>
+<kbd>N</kbd>Insert minor interval down… (use - for up)<br/>
+<kbd>Shift</kbd><kbd>N</kbd>Insert major interval down… (use - for up)<br/>
+<kbd>M</kbd>Insert minor interval up… (use - for down)<br/>
+<kbd>Shift</kbd><kbd>M</kbd>Insert major interval up… (use - for down)<br/>
+
+## Articulation Mode
+Articulation mode has articulations and sound modifiers.
+
+<kbd>'</kbd> Toggle ' (Staccatissimo) Accent<br/>
+<kbd>.</kbd> Toggle . (Staccato) Accent<br/>
+<kbd>_</kbd> Toggle _ (Tenuto) Accent<br/>
+<kbd>^</kbd> Toggle ^ (Marcato) Accent<br/>
+<kbd>&gt;</kbd> Toggle &gt; Accent<br/>
+
+<kbd>+</kbd> Mute,
+<kbd>o</kbd> Open,
+<kbd>@</kbd> Harmonic,
+<kbd>|</kbd> Pedal,
+
+
+
+
+
+
+
+
+
+
+
+
 Keyboard shortcuts for ScoreFall Studio.  ScoreFall Studio uses a simple command
 structure for keyboard use:
 
