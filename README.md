@@ -5,9 +5,32 @@ also be used as help for learning the shortcuts.
 **Modes:**
 
 - Normal Mode (For selecting parts of the score, and operating on it)
+ - Transposing Mode (For intervals & note names) - default mode for normal
+ - Articulation Mode (For changing articulation for selection)
+ - Clef Mode (For changing clef for selection)
+ - Key Signature Mode (For changing key for selection - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
+ - Time Signature Mode (For changing time signature for selection - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
+ - Duration Mode (For making selected section longer or shorter by duration ratio)
+ - Dynamics Mode (For setting dynamics of a section, cresc., dim. over selection)
+ - Instrument Change Mode (For changing instrument)
+ - Ornaments (inserting trills, turns on all selected notes)
+ - Glissandi, Slurs & Bends (insert between all in selected notes, or toggle off)
+ - Tempo Mode
+ - Repeats Mode
+
 - Edit Mode (For inserting notes by name or interval)
-- Articulation Mode (For changing articulation at cursor/selection)
-- Clef Mode (For changing clef at cursor/selection)
+ - Insert Mode (For intervals & note names) - default mode for edit
+ - Articulation Mode (For changing articulation at cursor, adding breath marks)
+ - Clef Mode (For changing clef at cursor)
+ - Key Signature Mode (For changing key at cursor - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
+ - Time Signature Mode (For changing time signature at cursor - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
+ - Duration Mode (For changing selected note's duration, and future rests)
+ - Dynamics Mode (For inserting dynamics, start/end cresc., dim.)
+ - Instrument Change Mode (For changing instrument)
+ - Ornaments (inserting trills, turns, tremelo, strumming, grace notes)
+ - Glissandi, Slurs & Bends (insert)
+ - Tempo Mode
+ - Repeats Mode
 
 ## Normal Mode
 This mode is the starting mode, if you're in another mode you can enter with
