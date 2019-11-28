@@ -2,35 +2,139 @@
 ScoreFall Studio has modal keyboard shortcuts that match up with a GUI which can
 also be used as help for learning the shortcuts.
 
+- Press <kbd>Shift</kbd> + <kbd>R</kbd> (":"), followed by a number, then
+  <kbd>Enter</kbd> to repeat previous action a number of times.
+
 **Modes:**
 
-- Normal Mode (For selecting parts of the score, and operating on it)
- - Transposing Mode (For intervals & note names) - default mode for normal
- - Articulation Mode (For changing articulation for selection)
- - Clef Mode (For changing clef for selection)
- - Key Signature Mode (For changing key for selection - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
- - Time Signature Mode (For changing time signature for selection - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
- - Duration Mode (For making selected section longer or shorter by duration ratio)
- - Dynamics Mode (For setting dynamics of a section, cresc., dim. over selection)
- - Instrument Change Mode (For changing instrument)
- - Ornaments (inserting trills, turns on all selected notes)
- - Glissandi, Slurs & Bends (insert between all in selected notes, or toggle off)
- - Tempo Mode
- - Repeats Mode
+- Selected Mode (For selecting parts of the score, and operating on it)
+ - (p) Pitch (Transposing) Mode (For intervals & note names) - default mode for
+   normal
+ - (a) Articulation Mode (For changing articulation for selection)
+ - (c) Clef Mode (For changing clef for selection)
+ - (k) Key Signature Mode (For changing key for selection - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
+ - (s) Time Signature Mode (For changing time signature for selection - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
+ - (v) Duration Mode (For making selected section longer or shorter by duration ratio)
+ - (d) Dynamics Mode (For setting dynamics of a section, cresc., dim. over selection)
+ - (i) Instrument Change Mode (For changing instrument)
+ - (o) Ornaments (inserting trills, turns on all selected notes)
+ - (j) Glissandi, Slurs & Bends (insert between all in selected notes, or toggle off)
+ - (t) Tempo Mode
+ - (r) Repeats Mode
 
-- Edit Mode (For inserting notes by name or interval)
- - Insert Mode (For intervals & note names) - default mode for edit
- - Articulation Mode (For changing articulation at cursor, adding breath marks)
- - Clef Mode (For changing clef at cursor)
- - Key Signature Mode (For changing key at cursor - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
- - Time Signature Mode (For changing time signature at cursor - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
- - Duration Mode (For changing selected note's duration, and future rests)
- - Dynamics Mode (For inserting dynamics, start/end cresc., dim.)
- - Instrument Change Mode (For changing instrument)
- - Ornaments (inserting trills, turns, tremelo, strumming, grace notes)
- - Glissandi, Slurs & Bends (insert)
- - Tempo Mode
- - Repeats Mode
+- Non-selected Mode (For inserting notes by name or interval)
+ - (p) Pitch (Insert) Mode (For intervals & note names) - default mode for edit
+ - (a) Articulation Mode (For changing articulation at cursor, adding breath marks)
+ - (c) Clef Mode (For changing clef at cursor)
+ - (k) Key Signature Mode (For changing key at cursor - transposing, rewriting - remove any accidentals that would be added, or renotating - add/remove accidentals)
+ - (s) Time Signature Mode (For changing time signature at cursor - adding/removing beats, renotating - example: changing from 5/8 to 5/4, or redistributing - example: 4 bars of 3/4 to 3 bars of 4/4)
+ - (v) Duration Mode (For changing selected note's duration, and future rests)
+ - (d) Dynamics Mode (For inserting dynamics, start/end cresc., dim.)
+ - (i) Instrument Change Mode (For changing instrument)
+ - (o) Ornaments (inserting trills, turns, tremelo, strumming, grace notes)
+ - (j) Glissandi, Slurs & Bends (insert)
+ - (t) Tempo Mode
+ - (r) Repeats Mode
+
+## Navigation (no menu)
+<kbd>H</kbd> | <kbd>Left</kbd> - Move one note to the left.<br/>
+<kbd>L</kbd> | <kbd>Right</kbd> - Move one note to the right.<br/>
+<kbd>Shift</kbd> + (<kbd>H</kbd> | <kbd>Left</kbd>) - Select one note to the
+ left.<br/>
+<kbd>Shift</kbd> + (<kbd>L</kbd> | <kbd>Right</kbd>) - Select one note to the
+ right.<br/>
+<kbd>Alt</kbd> + (<kbd>H</kbd> | <kbd>Left</kbd>) - Swap selection to the left.
+ <br/>
+<kbd>Alt</kbd> + (<kbd>L</kbd> | <kbd>Right</kbd>) - Swap selection to the
+ right.<br/>
+<kbd>Page Up</kbd> | <kbd>Ctrl</kbd> + (<kbd>H</kbd> | <kbd>Left</kbd>) -
+ Rehearsal marking to the left.
+ <br/>
+<kbd>Page Down</kbd> | <kbd>Ctrl</kbd> + (<kbd>L</kbd> | <kbd>Right</kbd>) -
+ Rehearsal marking to the right.<br/>
+
+<kbd>Shift</kbd> + <kbd>Tab</kbd> - Move up one staff.<br/>
+<kbd>Tab</kbd> - Move down on staff.<br/>
+<kbd>Enter</kbd> - Move to next measure.<br/>
+<kbd>Shift</kbd> + <kbd>Enter</kbd> - Move to previous measure.<br/>
+<kbd>Home</kbd> | <kbd>Alt</kbd> + <kbd>Enter</kbd> - Move to beginning.<br/>
+<kbd>End</kbd> | <kbd>Ctrl</kbd> + <kbd>Enter</kbd> - Move to end.<br/>
+
+<kbd>;</kbd> - Repeat X number of times, after <kbd>Enter</kbd><br/>
+<kbd>Shift</kbd> + <kbd>;</kbd> - Go to measure number X, after
+ <kbd>Enter</kbd>.  Also takes rehearsal marking letters.<br/>
+
+## <kbd>Alt</kbd> + <kbd>1</kbd> | <kbd>F1</kbd> - Pitch Menu
+<kbd>A</kbd> - Change to nearest A (relative to previous note)<br/>
+<kbd>B</kbd> - Change to nearest B (relative to previous note)<br/>
+<kbd>C</kbd> - Change to nearest C (relative to previous note)<br/>
+<kbd>D</kbd> - Change to nearest D (relative to previous note)<br/>
+<kbd>E</kbd> - Change to nearest E (relative to previous note)<br/>
+<kbd>F</kbd> - Change to nearest F (relative to previous note)<br/>
+<kbd>G</kbd> - Change to nearest G (relative to previous note)<br/>
+<kbd>R</kbd> - Change to rest<br/>
+
+<kbd>Shift</kbd> + <kbd>A</kbd> - Change to A above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>B</kbd> - Change to B above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>C</kbd> - Change to C above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>D</kbd> - Change to D above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>E</kbd> - Change to E above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>F</kbd> - Change to F above (relative to previous note)<br/>
+<kbd>Shift</kbd> + <kbd>G</kbd> - Change to G above (relative to previous note)<br/>
+
+<kbd>Alt</kbd> + <kbd>A</kbd> - Change to A below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>B</kbd> - Change to B below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>C</kbd> - Change to C below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>D</kbd> - Change to D below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>E</kbd> - Change to E below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>F</kbd> - Change to F below (relative to previous note)<br/>
+<kbd>Alt</kbd> + <kbd>G</kbd> - Change to G below (relative to previous note)<br/>
+
+<kbd>Shift</kbd> + <kbd>`</kbd> - Whole-Step Flat for measure
+<kbd>Shift</kbd> + <kbd>1</kbd> - Half-Step Flat for measure
+<kbd>Shift</kbd> + <kbd>2</kbd> - Natural for measure
+<kbd>Shift</kbd> + <kbd>3</kbd> - Half-Step Sharp (Sharp) for measure
+<kbd>Shift</kbd> + <kbd>4</kbd> - Whole-Step Sharp (Double Sharp) for measure
+<kbd>Shift</kbd> + <kbd>5</kbd> - (Measure Repeat)
+<kbd>Shift</kbd> + <kbd>6</kbd> - (Marcato Accent)
+<kbd>Shift</kbd> + <kbd>7</kbd> - accidental + Quarter-Step Flat for measure
+<kbd>Shift</kbd> + <kbd>8</kbd> - accidental + Quarter-Step Sharp for measure
+<kbd>Shift</kbd> + <kbd>9</kbd> - Parenthesis on selected note's accidental
+<kbd>Shift</kbd> + <kbd>0</kbd> - Parenthesis on selected notehead (approx.)
+
+<kbd>Down</kbd> | <kbd>J</kbd> - Step Down within key
+<kbd>Up</kbd> | <kbd>K</kbd> - Step Up within key
+<kbd>Ctrl</kbd> + (<kbd>Down</kbd> | <kbd>J</kbd>) - Half Step Down
+<kbd>Ctrl</kbd> + (<kbd>Up</kbd> | <kbd>K</kbd>) - Half Step Up
+<kbd>Alt</kbd> + (<kbd>Down</kbd> | <kbd>J</kbd>) - Quarter Step Down
+<kbd>Alt</kbd> + (<kbd>Up</kbd> | <kbd>K</kbd>) - Quarter Step Up
+
+<kbd>Shift</kbd> + <kbd>/</kbd> - Toggle Show Menus
+
+## <kbd>Alt</kbd> + <kbd>2</kbd> | <kbd>F2</kbd> - Duration/Value Menu
+<kbd>V</kbd>, <kbd>I</kbd> | <kbd>1</kbd> - 64th Note
+<kbd>V</kbd>, <kbd>T</kbd> | <kbd>2</kbd> - 32nd Note
+<kbd>V</kbd>, <kbd>S</kbd> | <kbd>3</kbd> - 16th Note
+<kbd>V</kbd>, <kbd>E</kbd> | <kbd>4</kbd> - 8th Note
+<kbd>V</kbd>, <kbd>Q</kbd> | <kbd>5</kbd> - Quarter Note
+<kbd>V</kbd>, <kbd>H</kbd> | <kbd>6</kbd> - Half Note
+<kbd>V</kbd>, <kbd>W</kbd> | <kbd>7</kbd> - Whole Note
+<kbd>V</kbd>, <kbd>D</kbd> | <kbd>8</kbd> - Double Whole Note
+<kbd>V</kbd>, <kbd>L</kbd> | <kbd>9</kbd> - Longa
+<kbd>V</kbd>, <kbd>T</kbd> | <kbd>0</kbd> - Tie
+<kbd>.</kbd> - Dotted Note
+
+## <kbd>Alt</kbd> + <kbd>3</kbd> | <kbd>F3</kbd> - Articulation Menu
+<kbd>S</kbd> - Add Slur(s) / Toggle Editing Slur(s)
+<kbd>Shift</kbd> + <kbd>S</kbd> - Delete Selected Slur(s)
+<kbd>`</kbd> - Staccatissimo
+<kbd>Shift</kbd> + <kbd>\</kbd> - Short Caesura
+<kbd>Alt</kbd> + <kbd>\</kbd> - Long Caesura
+<kbd>/</kbd> - (Search)
+<kbd>,</kbd> - Breath Mark
+
+======
+
 
 ## Normal Mode
 This mode is the starting mode, if you're in another mode you can enter with
