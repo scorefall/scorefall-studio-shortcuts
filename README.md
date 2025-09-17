@@ -1,4 +1,4 @@
-# ScoreFall Studio - Keyboard Shortcuts
+# ScoreFall Ink - Keyboard Shortcuts
 ScoreFall Studio has modal keyboard shortcuts that match up with a GUI which can
 also be used as help for learning the shortcuts.
 
